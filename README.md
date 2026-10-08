@@ -45,7 +45,7 @@ The project moves from data validation to executive communication: Python was us
 - developed DAX measures for financial and commercial KPIs
 - built executive and product-level Power BI views with filters, navigation, and drill-through
 
-## Executive Dashboard
+## Power BI Dashboard
 
 ### Commercial and Financial Overview
 
@@ -63,9 +63,9 @@ The detail view makes it possible to compare sales volume, revenue, product cost
   <img src="images/2_rappiplus-product-performance.png" alt="RappiPlus product performance" width="900">
 </p>
 
-### Customer Behavior and A/B Test
+## Customer Behavior and Experimentation
 
-The behavioral view combines the conversion funnel, early cohort retention, and the checkout experiment in a format that can be reviewed directly on GitHub.
+The Power BI report contains the two pages shown above: `Overview` and `Detalle / Drill-through`. The following image is not a third Power BI page. It is a static portfolio summary created from the validated notebook results so the SQL conversion funnel, cohort retention, and A/B test can be reviewed directly on GitHub without specialized software.
 
 <p align="center">
   <img src="images/3_rappiplus-customer-behavior.png" alt="RappiPlus customer behavior and experiment results" width="900">
