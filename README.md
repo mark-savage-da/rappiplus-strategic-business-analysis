@@ -8,6 +8,12 @@ RappiPlus needed a unified view of profitability and customer performance. Trans
 
 The project moves from data validation to executive communication: Python was used to clean and validate the data, SQL to analyze the funnel and retention cohorts, a two-proportion Z-test to evaluate the checkout experiment, and Power BI to build an interactive commercial dashboard.
 
+## Business Context
+
+RappiPlus operates an e-commerce ordering journey where commercial profitability and customer engagement must be considered together. Sales alone do not reveal whether orders cover product costs and marketing investment, while checkout and retention metrics help identify friction beyond the completed purchase.
+
+The analysis therefore brings together **financial performance**, **customer conversion and retention**, and **experimental evidence** to inform business decisions. These are complementary views of the project—not claims that a single metric explains every change in customer behavior.
+
 ## Business Questions
 
 - Can the available data be trusted for business decisions?
@@ -103,6 +109,12 @@ The Power BI report contains the two pages shown above: `Overview` and `Detalle 
 - **Statistics:** two-proportion Z-test for A/B experimentation
 - **Power BI and DAX:** data modeling, measures, time intelligence, navigation, and drill-through
 - **Business Intelligence:** profitability, customer behavior, marketing performance, and executive communication
+
+## Professional Value
+
+This portfolio project demonstrates how I connect **data engineering fundamentals, financial KPIs, customer behavior, and statistical reasoning** to decisions in Marketing Data Analytics and Business Intelligence. In practice, that means cleaning transactional data with Python, querying funnel and cohort behavior in SQL, evaluating an A/B test without confusing an observed uplift with statistical significance, and presenting business performance in Power BI.
+
+For **Data Analyst, Marketing Data Analyst, and BI Analyst** roles, the distinctive contribution is the ability to explain not only *what changed* but also *which evidence supports a recommendation—and what remains uncertain*. The non-significant checkout experiment is a concrete example: rather than claim success from a positive point estimate, I recommend further testing before rollout.
 
 ## Repository Structure
 
